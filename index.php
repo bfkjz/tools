@@ -1,6 +1,5 @@
 <?php
 header('Access-Control-Allow-Origin: *');
-echo "<p>http://域名/api.php?http://api.xxx.xxx</p>";
 $geturl = urldecode($_SERVER['QUERY_STRING']);
 $method = $_SERVER['REQUEST_METHOD'];
 $headers =apache_request_headers();
